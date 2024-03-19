@@ -18,13 +18,28 @@ img {
   height: 100px;
 }
 
+.member-list {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+}
+
+.head {
+  text-align: center;
+}
+
 .delete-member-message {
+  text-align: center;
   font-weight: bold;
   color: red;
 }
 
-#delete {
+.table {
   text-align: center;
+}
+
+#delete {
+  text-align:center;
 }
 
 #del {
