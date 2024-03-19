@@ -1,9 +1,43 @@
+.head {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+}
+
 .display {
     width: 77.5%;
-    height: 650px;
+    height: 525px;
     text-align: center;
+    border: 1px solid grey
 }
 
 .detail {
     text-align: center;
+}
+
+.button {
+    background-color: #07ef1e;
+    border: 2px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flexbox;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 30px;
+}
+
+.link {
+    color: rgb(18, 6, 255);
+    cursor: pointer;
+}
+
+.link:hover {
+    color: black;
+}
+
+.button:hover {
+    color: chartreuse;
 }
