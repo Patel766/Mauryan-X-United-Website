@@ -1,0 +1,74 @@
+<div class="add-member">
+  <h1>Add New Member</h1>
+  <p class="add-member-message">{{ addMemberMessage }}</p>
+  <form
+    #addNewMember="ngForm"
+    (ngSubmit)="addMember(addNewMember.value)"
+    class="common-form"
+  >
+    <input
+      class="form-input"
+      type="text"
+      ngModel
+      name="name"
+      placeholder="Enter Name"
+    />
+    <input
+      class="form-input"
+      type="text"
+      ngModel
+      name="email"
+      placeholder="Enter Email"
+    />
+    <input
+      class="form-input"
+      type="number"
+      ngModel
+      name="phonenumber"
+      placeholder="Enter Phone Number"
+    />
+    <input
+      class="form-input"
+      type="number"
+      ngModel
+      name="schoolnumber"
+      placeholder="Enter School Number"
+    />
+    <input
+      class="form-input"
+      type="text"
+      ngModel
+      name="address"
+      placeholder="Enter Address"
+    />
+    <input
+      class="form-input"
+      type="text"
+      ngModel
+      name="district"
+      placeholder="Enter District"
+    />
+    <input
+      class="form-input"
+      type="text"
+      ngModel
+      name="state"
+      placeholder="Enter State"
+    />
+    <input
+      class="form-input"
+      type="number"
+      ngModel
+      name="pincode"
+      placeholder="Enter Pin Code"
+    />
+    <input
+      class="form-input"
+      type="string"
+      ngModel
+      name="image"
+      placeholder="Enter Image Link"
+    />
+    <button class="form-button">ADD</button>
+  </form>
+</div>

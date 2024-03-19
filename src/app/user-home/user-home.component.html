@@ -1,0 +1,32 @@
+<div class="member-list">
+    <h1>Member Details</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>E-mail</th>
+          <th>Phone No.</th>
+          <th>School No.</th>
+          <th>Address</th>
+          <th>District</th>
+          <th>State</th>
+          <th>Pin Code</th>
+          <th>Image</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of memberList">
+          <td>{{ item.name }}</td>
+          <td>{{ item.email }}</td>
+          <td>{{ item.phonenumber }}</td>
+          <td>{{ item.schoolnumber }}</td>
+          <td>{{ item.address }}</td>
+          <td>{{ item.district }}</td>
+          <td>{{ item.state }}</td>
+          <td>{{ item.pincode }}</td>
+          <td><img src="{{ item.image }}" alt="{{ item.name }} image" /></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

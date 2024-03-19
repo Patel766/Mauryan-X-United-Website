@@ -1,0 +1,110 @@
+{
+  "server": [
+    {
+      "id": "65a0",
+      "name": "Gaurav Kumar Patel",
+      "email": "patelamarjeet784@gmail.com",
+      "phone": 8226858677,
+      "password": "abc@123"
+    },
+    {
+      "id": "9f94",
+      "name": "Prakrit",
+      "email": "prakrit1024@gmail.com",
+      "phonenumber": 8226858677,
+      "password": "abc@123"
+    },
+    {
+      "id": "b720",
+      "name": "Deepak",
+      "email": "deep740@gmail.com",
+      "phonenumber": 8226858677,
+      "password": "abc@123"
+    },
+    {
+      "id": "f3c8",
+      "name": "Vishnu",
+      "email": "v774@gmail.com",
+      "phonenumber": 8226858677,
+      "password": "abc@123"
+    },
+    {
+      "id": "5758",
+      "name": "abc",
+      "email": "aaa",
+      "phonenumber": 8226858677,
+      "password": "aaa"
+    }
+  ],
+  "member": [
+    {
+      "id": "a2af",
+      "name": "Gaurav Kumar Patel",
+      "email": "gkpatel766@gmail.com",
+      "phonenumber": 8226858677,
+      "schoolnumber": 766,
+      "address": "Doiya",
+      "district": "Nalanda",
+      "state": "Bihar",
+      "pincode": 803118,
+      "image": "/assets/member image/img1.jpg"
+    },
+    {
+      "name": "Deepak Raj",
+      "email": "deep740@gmail.com",
+      "phonenumber": "8226858677",
+      "schoolnumber": "740",
+      "address": "Biharsharif",
+      "district": "Nalanda",
+      "state": "Bihar",
+      "pincode": "803116",
+      "image": "/assets/member image/img1.jpg",
+      "id": "9fd3"
+    },
+    {
+      "name": "Prahlad Patel",
+      "email": "pp758@gmail.com",
+      "phonenumber": "8226858677",
+      "schoolnumber": "758",
+      "address": "Biharsharif",
+      "district": "Nalanda",
+      "state": "Bihar",
+      "pincode": "803116",
+      "image": "/assets/member image/img1.jpg",
+      "id": "8a21"
+    },
+    {
+      "id": "7427",
+      "name": "Gaurav Kumar Patel",
+      "email": "gkpatel766@gmail.com",
+      "phonenumber": 8226858677,
+      "schoolnumber": 555,
+      "address": "Doiya",
+      "district": "North 24 Parganas",
+      "state": "Bihar",
+      "pincode": 803118,
+      "image": "/assets/member image/img1.jpg"
+    },
+    {
+      "id": "e064",
+      "name": "Gaurav Kumar Patel",
+      "email": "iprince1035@gmail.com",
+      "phonenumber": 8226858677,
+      "schoolnumber": 666,
+      "address": "Doiya",
+      "district": "Nalanda",
+      "state": "Bihar",
+      "pincode": 803118,
+      "image": "/assets/member image/img1.jpg"
+    }
+  ],
+  "user": [
+    {
+      "id": "5dd7",
+      "name": "Gaurav Kumar Patel",
+      "email": "aaa",
+      "phonenumber": 8226858677,
+      "password": "aaa"
+    }
+  ]
+}
