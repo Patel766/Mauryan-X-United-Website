@@ -13,11 +13,26 @@ import { UserAuthGuard } from './user-auth.guard';
 import { UserHomeComponent } from './user-home/user-home.component';
 import { ServerDetailsComponent } from './server-details/server-details.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
+import { HomeMembersComponent } from './home-members/home-members.component';
+import { HomeContactComponent } from './home-contact/home-contact.component';
+import { HomeAboutComponent } from './home-about/home-about.component';
 
 const routes: Routes = [
   {
     path: 'home',
     component: HomeComponent,
+  },
+  {
+    path: 'home-members',
+    component: HomeMembersComponent,
+  },
+  {
+    path: 'home-about',
+    component: HomeAboutComponent,
+  },
+  {
+    path: 'home-contact',
+    component: HomeContactComponent
   },
   {
     path: 'user-login',

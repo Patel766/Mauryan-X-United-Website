@@ -19,6 +19,9 @@ import { UserHomepageComponent } from './user-homepage/user-homepage.component';
 import { UserHomeComponent } from './user-home/user-home.component';
 import { ServerDetailsComponent } from './server-details/server-details.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
+import { HomeMembersComponent } from './home-members/home-members.component';
+import { HomeAboutComponent } from './home-about/home-about.component';
+import { HomeContactComponent } from './home-contact/home-contact.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +38,9 @@ import { UserDetailsComponent } from './user-details/user-details.component';
     UserHomeComponent,
     ServerDetailsComponent,
     UserDetailsComponent,
+    HomeMembersComponent,
+    HomeAboutComponent,
+    HomeContactComponent,
   ],
   imports: [
     BrowserModule,
