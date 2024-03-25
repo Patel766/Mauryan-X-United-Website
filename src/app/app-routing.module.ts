@@ -16,8 +16,14 @@ import { UserDetailsComponent } from './user-details/user-details.component';
 import { HomeMembersComponent } from './home-members/home-members.component';
 import { HomeContactComponent } from './home-contact/home-contact.component';
 import { HomeAboutComponent } from './home-about/home-about.component';
+import { UserContactComponent } from './user-contact/user-contact.component';
 
 const routes: Routes = [
+  { 
+    path: '', 
+    redirectTo: '/home', 
+    pathMatch: 'full' 
+  },
   {
     path: 'home',
     component: HomeComponent,
@@ -35,12 +41,37 @@ const routes: Routes = [
     component: HomeContactComponent
   },
   {
+    path: 'server-login',
+    component: ServerLoginComponent,
+  },
+  {
     path: 'user-login',
     component: UserLoginComponent,
   },
   {
-    path: 'server-login',
-    component: ServerLoginComponent,
+    path: 'home/home-members',
+    component: HomeMembersComponent,
+  },
+  {
+    path: 'home/home-about',
+    component: HomeAboutComponent,
+  },
+  {
+    path: 'home/home-contact',
+    component: HomeContactComponent
+  },
+  {
+    path: 'home/user-login',
+    component: UserLoginComponent,
+  },
+  {
+    path: 'home/home-members/user-login',
+    component: UserLoginComponent,
+  },
+  {
+    path: 'server-homepage',
+    component: ServerHomepageComponent,
+    canActivate: [ServerAuthGuard],
   },
   {
     path: 'server-home',
@@ -50,11 +81,6 @@ const routes: Routes = [
   {
     path: 'server-add',
     component: ServerAddComponent,
-    canActivate: [ServerAuthGuard],
-  },
-  {
-    path: 'server-homepage',
-    component: ServerHomepageComponent,
     canActivate: [ServerAuthGuard],
   },
   {
@@ -68,10 +94,6 @@ const routes: Routes = [
     canActivate: [ServerAuthGuard],
   },
   {
-    path: 'home/user-login',
-    component: UserLoginComponent,
-  },
-  {
     path: 'server-homepage/server-home',
     component: ServerHomeComponent,
     canActivate: [ServerAuthGuard],
@@ -79,6 +101,11 @@ const routes: Routes = [
   {
     path: 'server-homepage/server-add',
     component: ServerAddComponent,
+    canActivate: [ServerAuthGuard],
+  },
+  {
+    path: 'server-homepage/server-details',
+    component: ServerDetailsComponent,
     canActivate: [ServerAuthGuard],
   },
   {
@@ -97,8 +124,23 @@ const routes: Routes = [
     canActivate: [UserAuthGuard],
   },
   {
+    path: 'user-contact',
+    component: UserContactComponent,
+    canActivate: [UserAuthGuard],
+  },
+  {
     path: 'user-homepage/user-home',
     component: UserHomeComponent,
+    canActivate: [UserAuthGuard],
+  },
+  {
+    path: 'user-homepage/user-details',
+    component: UserDetailsComponent,
+    canActivate: [UserAuthGuard],
+  },
+  {
+    path: 'user-homepage/user-contact',
+    component: UserContactComponent,
     canActivate: [UserAuthGuard],
   }
 ];

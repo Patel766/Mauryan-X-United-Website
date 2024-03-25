@@ -22,6 +22,7 @@ import { UserDetailsComponent } from './user-details/user-details.component';
 import { HomeMembersComponent } from './home-members/home-members.component';
 import { HomeAboutComponent } from './home-about/home-about.component';
 import { HomeContactComponent } from './home-contact/home-contact.component';
+import { UserContactComponent } from './user-contact/user-contact.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { HomeContactComponent } from './home-contact/home-contact.component';
     HomeMembersComponent,
     HomeAboutComponent,
     HomeContactComponent,
+    UserContactComponent,
   ],
   imports: [
     BrowserModule,

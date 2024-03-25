@@ -17,4 +17,18 @@ table td {
     width: 100px;
     height: 100px;
   }
+
+  .member-list {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+  }
+
+  .head {
+    text-align: center;
+  }
+
+  .table {
+    text-align: center;
+  }
   

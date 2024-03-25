@@ -1,38 +1,45 @@
 <header>
-<nav class="nav-bar">
-  <div [ngSwitch]="menuType" >
-    <ul *ngSwitchCase="'default'">
-      <li><a class="nav-link" id="mxu" routerLink="home">MXU</a></li>
-      <li><a class="nav-link" routerLink="home-members">Members</a></li>
-      <li><a class="nav-link" routerLink="home-about">About Us</a></li>
-      <li><a class="nav-link" routerLink="home-contact">Contact Us</a></li>
-      <li><a class="nav-link" routerLink="server-login">Server</a></li>
-      <li><a class="nav-link" routerLink="user-login">User Login</a></li>
-    </ul>
-    <ul *ngSwitchCase="'server'">
-      <li><a class="nav-link" id="mxu" routerLink="server-homepage">MXU</a></li>
-      <li><a class="nav-link" routerLink="server-home">Members</a></li>
-      <li><a class="nav-link" routerLink="server-add">Add New</a></li>
-      <li><a class="nav-link" routerLink="server-details">Details</a></li>
-      <li>
-        <a class="nav-link" routerLink="server-homepage">{{
-          serverName | titlecase
-        }}</a>
-      </li>
-      <li><a class="nav-link" id="logout" (click)="logOut()">Logout</a></li>
-    </ul>
-    <ul *ngSwitchCase="'user'">
-      <li><a class="nav-link" id="mxu" routerLink="user-homepage">MXU</a></li>
-      <li><a class="nav-link" routerLink="user-home">Members</a></li>
-      <li><a class="nav-link" routerLink="user-details">Details</a></li>
-      <li><a class="nav-link" routerLink="">Contact Us</a></li>
-      <li>
-        <a class="nav-link" routerLink="user-homepage">{{
-          userName | titlecase
-        }}</a>
-      </li>
-      <li><a class="nav-link" id="logout" (click)="userLogout()">Logout</a></li>
-    </ul>
-  </div>
-</nav>
+  <nav class="nav-bar">
+    <div [ngSwitch]="menuType">
+      <ul *ngSwitchCase="'default'">
+        <li><a class="nav-link" id="mxu" routerLink="home">MXU</a></li>
+        <li><a class="nav-link" routerLink="home-members">Members</a></li>
+        <li><a class="nav-link" routerLink="home-about">About Us</a></li>
+        <li><a class="nav-link" routerLink="home-contact">Contact Us</a></li>
+        <li><a class="nav-link" routerLink="server-login">Server</a></li>
+        <li><a class="nav-link" routerLink="user-login">User Login</a></li>
+      </ul>
+      <ul *ngSwitchCase="'server'">
+        <li>
+          <a class="nav-link" id="mxu" routerLink="server-homepage">MXU</a>
+        </li>
+        <li><a class="nav-link" routerLink="server-home">Members</a></li>
+        <li><a class="nav-link" routerLink="server-add">Add New</a></li>
+        <li><a class="nav-link" routerLink="server-details">Details</a></li>
+        <li>
+          <a class="nav-link" routerLink="server-homepage">{{
+            serverName | titlecase
+          }}</a>
+        </li>
+        <li><a class="nav-link" id="logout" (click)="logOut()">Logout</a></li>
+      </ul>
+      <ul *ngSwitchCase="'user'">
+        <li><a class="nav-link" id="mxu" routerLink="user-homepage">MXU</a></li>
+        <li><a class="nav-link" routerLink="user-home">Members</a></li>
+        <li><a class="nav-link" routerLink="user-details">Details</a></li>
+        <li><a class="nav-link" routerLink="user-contact">Contact Us</a></li>
+        <li>
+          <a class="nav-link" routerLink="user-homepage">{{
+            userName | titlecase
+          }}</a>
+        </li>
+        <li>
+          <a class="nav-link" id="logout" (click)="userLogout()">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </header>
+<div>
+  <router-outlet></router-outlet>
+</div>

@@ -1,6 +1,14 @@
+.head {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+}
+
 .display {
-    width: 80%;
-    height: 550px;
+    width: 77.5%;
+    height: 525px;
+    text-align: center;
+    border: 1px solid grey
 }
 
 .detail {
