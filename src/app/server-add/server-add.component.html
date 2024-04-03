@@ -1,5 +1,5 @@
 <div class="add-member">
-  <h1>Add New Member</h1>
+  <h1 class="head">Add New Member</h1>
   <p class="add-member-message">{{ addMemberMessage }}</p>
   <form
     #addNewMember="ngForm"
@@ -15,6 +15,13 @@
     />
     <input
       class="form-input"
+      type="date"
+      ngModel
+      name="dateofbirth"
+      placeholder="Enter Date"
+    />
+    <input
+      class="form-input"
       type="text"
       ngModel
       name="email"
@@ -24,8 +31,22 @@
       class="form-input"
       type="number"
       ngModel
+      name="aadharnumber"
+      placeholder="Enter Aadhar Number"
+    />
+    <input
+      class="form-input"
+      type="number"
+      ngModel
       name="phonenumber"
       placeholder="Enter Phone Number"
+    />
+    <input
+      class="form-input"
+      type="number"
+      ngModel
+      name="whatsappnumber"
+      placeholder="Enter Whatsapp Number"
     />
     <input
       class="form-input"
@@ -68,6 +89,13 @@
       ngModel
       name="image"
       placeholder="Enter Image Link"
+    />
+    <input
+      class="form-input"
+      type="string"
+      ngModel
+      name="sign"
+      placeholder="Enter Signature Link"
     />
     <button class="form-button">ADD</button>
   </form>

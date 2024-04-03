@@ -19,13 +19,19 @@ table td {
   }
 
   .member-list {
-    margin-left: 10%;
-    margin-right: 10%;
+    overflow-x: scroll;
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-top: 20px;
   }
 
   .head {
     text-align: center;
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
   }
 
   .table {

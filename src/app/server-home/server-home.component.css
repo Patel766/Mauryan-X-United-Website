@@ -19,13 +19,20 @@ img {
 }
 
 .member-list {
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 20px;
+  overflow-x: scroll;
+  box-sizing: border-box;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0;
 }
 
 .head {
   text-align: center;
+  box-sizing: border-box;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .delete-member-message {
@@ -39,7 +46,7 @@ img {
 }
 
 #delete {
-  text-align:center;
+  text-align: center;
 }
 
 #del {

@@ -1,7 +1,7 @@
-nav {
+.nav-bar {
   /* padding: 0 0 10px 0; */
   display: block;
-  /* background-color: greenyellow; */
+  background-color: rgb(175, 179, 172);
   overflow: hidden ;
 }
 

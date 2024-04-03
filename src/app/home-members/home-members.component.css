@@ -1,0 +1,126 @@
+
+.body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #e6c28d;
+}
+.head {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #dbf2a9;
+    border-bottom: 2px solid rgb(17, 2, 2);
+}
+
+.title {
+    margin-bottom: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(0, 191, 255);
+    font-weight: 700;
+    font-family: cursive;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+.text1 {
+    margin: 10px;
+    margin-top: 0;
+    padding: 10px;
+}
+
+.text2 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.head1 {
+    text-align: center;
+    color: blueviolet;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.para {
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.head2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: chocolate;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.list {
+    box-sizing: border-box;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.items {
+    margin-left: 10%;
+    font-weight: bold;
+    color: rgb(5, 141, 111);
+}
+
+.form {
+    padding: 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.head3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: rgb(210, 78, 30);
+    font-weight: bolder;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+.button {
+    padding: 0;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.link {
+    background-color: #d8ef07b7;
+    border: 2px solid rgb(1, 17, 255);
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    display: flexbox;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.link:hover {
+    background-color: #05fefe;
+    color: black;
+    border: 2px solid grey;
+}
+
+.note {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.message {
+    padding: 20px;
+}

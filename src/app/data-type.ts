@@ -13,12 +13,16 @@ export interface Login {
 export interface AddMember {
   id: string;
   name: string;
+  dateofbirth: Date;
   email: string;
+  aadharnumber: number;
   phonenumber: number;
+  whatsappnumber: number;
   schoolnumber: number;
   address: string;
   district: string;
   state: string;
   pincode: number;
   image: string;
+  sign: string;
 }

@@ -4,11 +4,20 @@
   text-align: center;
 }
 
-h1 {
-  color: blueviolet;
+.update-member {
   text-align: center;
 }
 
-.update-member {
+.form-input:hover {
+  background-color: #d7e073;
+}
+
+.head {
+  color: blueviolet;
   text-align: center;
+  margin-top: 20px;
+}
+
+.form-button:hover {
+  background-color: #70a0decd;
 }

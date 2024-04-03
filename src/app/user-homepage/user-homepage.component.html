@@ -1,92 +1,103 @@
 <ngb-carousel>
-    <ng-template ngbSlide>
-        <div class="picsum-img-wrapper">
-            <img class="home-image" src="/assets/home image/home1.jpg" alt="Random first slide" />
-        </div>
-        <!-- <div class="carousel-caption">
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img
+        class="home-image"
+        src="/assets/home image/home1.jpg"
+        alt="Random first slide"
+      />
+    </div>
+    <!-- <div class="carousel-caption">
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </div> -->
-    </ng-template>
-    <ng-template ngbSlide>
-        <div class="picsum-img-wrapper">
-            <img class="home-image" src="/assets/home image/home2.jpg" alt="Random second slide" />
-        </div>
-        <!-- <div class="carousel-caption">
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img
+        class="home-image"
+        src="/assets/home image/home2.jpg"
+        alt="Random second slide"
+      />
+    </div>
+    <!-- <div class="carousel-caption">
             <h3>Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div> -->
-    </ng-template>
-    <ng-template ngbSlide>
-        <div class="picsum-img-wrapper">
-            <img class="home-image" src="/assets/home image/home3.jpg" alt="Random third slide" />
-        </div>
-        <!-- <div class="carousel-caption">
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img
+        class="home-image"
+        src="/assets/home image/home3.jpg"
+        alt="Random third slide"
+      />
+    </div>
+    <!-- <div class="carousel-caption">
             <h3>Third slide label</h3>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         </div> -->
-    </ng-template>
+  </ng-template>
 </ngb-carousel>
 
-
 <div class="browse-wrapper">
-    <h1 class="browse-head">Go To</h1>
-    <div class="row">
-      <div class="col-sm-3">
-        <a routerLink="user-home">
-          <div class="browse-image">
-            <img src="/assets/browse image/browse1.jpg" alt="" />
-            <div class="browse-details">
-              <h5 class="page-name">Members</h5>
-              <div class="page-desc">
-                <p>Details of Members.</p>
-                <!-- <a class="nav-link" routerLink="home/server-login">Server Login</a> -->
-              </div>
+  <h1 class="browse-head">Go To</h1>
+  <div class="row">
+    <div class="col-sm-3">
+      <a class="link" routerLink="user-home">
+        <div class="browse-image">
+          <img src="/assets/browse image/browse1.jpg" alt="" />
+          <div class="browse-details">
+            <h5 class="page-name">Members</h5>
+            <div class="page-desc">
+              <p>Details of Members.</p>
+              <!-- <a class="nav-link" routerLink="home/server-login">Server Login</a> -->
             </div>
           </div>
-        </a>
-      </div>
-      <div class="col-sm-3">
-          <a routerLink="user-details">
-            <div class="browse-image">
-              <img src="/assets/browse image/browse6.jpg" alt="" />
-              <div class="browse-details">
-                <h5 class="page-name">Records</h5>
-                <div class="page-desc">
-                  <p>Check payment records.</p>
-                  <!-- <a class="nav-link" routerLink="home/server-login">Server Login</a> -->
-                </div>
-              </div>
-            </div>
-          </a>
         </div>
-        <div class="col-sm-3">
-          <a routerLink="user-contact">
-            <div class="browse-image">
-              <img src="/assets/browse image/browse3.jpg" alt="" />
-              <div class="browse-details">
-                <h5 class="page-name">Contact Us</h5>
-                <div class="page-desc">
-                  <p>For query contact us.</p>
-                  <!-- <a class="nav-link" routerLink="home/server-login">Server Login</a> -->
-                </div>
-              </div>
+      </a>
+    </div>
+    <div class="col-sm-3">
+      <a class="link" routerLink="user-details">
+        <div class="browse-image">
+          <img src="/assets/browse image/browse6.jpg" alt="" />
+          <div class="browse-details">
+            <h5 class="page-name">Records</h5>
+            <div class="page-desc">
+              <p>Check payment records.</p>
+              <!-- <a class="nav-link" routerLink="home/server-login">Server Login</a> -->
             </div>
-          </a>
+          </div>
         </div>
-        <div class="col-sm-3">
-          <a routerLink="/">
-            <div class="browse-image">
-              <img src="/assets/browse image/browse7.jpg" alt="" />
-              <div class="browse-details">
-                <h5 class="page-name">Rules</h5>
-                <div class="page-desc">
-                  <p>Rules of the group.</p>
-                  <!-- <a class="nav-link" routerLink="home/server-login">Server Login</a> -->
-                </div>
-              </div>
+      </a>
+    </div>
+    <div class="col-sm-3">
+      <a class="link" routerLink="user-contact">
+        <div class="browse-image">
+          <img src="/assets/browse image/browse3.jpg" alt="" />
+          <div class="browse-details">
+            <h5 class="page-name">Contact Us</h5>
+            <div class="page-desc">
+              <p>For query contact us.</p>
+              <!-- <a class="nav-link" routerLink="home/server-login">Server Login</a> -->
             </div>
-          </a>
+          </div>
         </div>
+      </a>
+    </div>
+    <div class="col-sm-3">
+      <a class="link" routerLink="/">
+        <div class="browse-image">
+          <img src="/assets/browse image/browse7.jpg" alt="" />
+          <div class="browse-details">
+            <h5 class="page-name">Rules</h5>
+            <div class="page-desc">
+              <p>Rules of the group.</p>
+              <!-- <a class="nav-link" routerLink="home/server-login">Server Login</a> -->
+            </div>
+          </div>
+        </div>
+      </a>
     </div>
   </div>
+</div>

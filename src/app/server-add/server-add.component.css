@@ -3,11 +3,20 @@
   color: green;
 }
 
-h1 {
-  color: blueviolet;
+.add-member {
   text-align: center;
 }
 
-.add-member {
+.form-input:hover {
+  background-color: #d7e073;
+}
+
+.head {
+  color: blueviolet;
   text-align: center;
+  margin-top: 20px;
+}
+
+.form-button:hover {
+  background-color: #70a0decd;
 }
